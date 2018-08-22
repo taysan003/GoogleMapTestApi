@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3702ed6b-2de9-4fae-b897-5f42e1139be5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,16 +36,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
+          <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Git file" value="2" />
+          <entry key="Git file" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
+          <entry key="JSON" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -82,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoogleMapApi.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
@@ -92,10 +94,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/googlerestapi/GetStatusCodeTest.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="-432">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/restapiclass/json-schema.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3314">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/googlerestapi/JsonSchemaValidationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,11 +175,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/googlerestapi/RequestLoggingTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/com/googlerestapi/GetJsonResponseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/googlerestapi/GetRequestTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/googlerestapi/ConvertStringToJson.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/com/restapiclass/json-schema.json" />
+        <option value="$PROJECT_DIR$/src/test/java/com/googlerestapi/JsonSchemaValidationTest.java" />
       </list>
     </option>
   </component>
@@ -167,13 +192,15 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="128" />
-    <option name="width" value="1891" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="16" />
+    <option name="y" value="120" />
+    <option name="width" value="1357" />
     <option name="height" value="857" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -249,7 +276,7 @@
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="$PROJECT_DIR$/src/test/java/com/googlerestapi/GetRequestTest.java&#10;G:/APIAutoTesting/GoogleMapApi/GoogleMapApi.iml&#10;G:/APIAutoTesting/GoogleMapApi/src/test/java/com/googlerestapi/GetJsonResponseTest.java&#10;G:/APIAutoTesting/GoogleMapApi/src/test/java/com/googlerestapi/ConvertStringToJson.java&#10;G:/APIAutoTesting/GoogleMapApi/pom.xml" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534975904918" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534977538868" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -264,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConvertStringToJson">
+  <component name="RunManager" selected="TestNG.JsonSchemaValidationTest">
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -353,7 +380,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestLoggingTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonSchemaValidationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GoogleMapApi" />
       <extension name="coverage">
         <pattern>
@@ -362,7 +389,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.googlerestapi" />
-      <option name="MAIN_CLASS_NAME" value="com.googlerestapi.RequestLoggingTest" />
+      <option name="MAIN_CLASS_NAME" value="com.googlerestapi.JsonSchemaValidationTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -379,19 +406,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.RequestLoggingTest" />
       <item itemvalue="TestNG.GetJsonResponseTest" />
       <item itemvalue="TestNG.GetRequestTest" />
       <item itemvalue="TestNG.GetRequestTest.testResult" />
       <item itemvalue="Application.ConvertStringToJson" />
+      <item itemvalue="TestNG.JsonSchemaValidationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JsonSchemaValidationTest" />
         <item itemvalue="Application.ConvertStringToJson" />
         <item itemvalue="TestNG.GetRequestTest.testResult" />
         <item itemvalue="TestNG.GetRequestTest" />
         <item itemvalue="TestNG.GetJsonResponseTest" />
-        <item itemvalue="TestNG.RequestLoggingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -413,10 +440,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="128" width="1891" height="857" extended-state="0" />
+    <frame x="16" y="120" width="1357" height="857" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25232112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35620663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/restapiclass/Posts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/googlerestapi/ConvertStringToJson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -508,13 +528,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoogleMapApi.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/restapiclass/json-schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3314">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/restapiclass/Posts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/googlerestapi/JsonSchemaValidationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
